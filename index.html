@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARDI FINDS — Temukan barang yang worth it.</title>
+<meta name="description" content="">
+<meta property="og:title" content=""><meta property="og:description" content=""><meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23F97316'/%3E%3Ccircle cx='15' cy='15' r='6' fill='none' stroke='white' stroke-width='3'/%3E%3Cpath d='M20 20l5 5' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#katalog">Lewati ke katalog</a>
+<header class="nav"><div class="wrap nav__in">
+  <a href="#atas" class="logo" data-logo aria-label="ARDI FINDS"></a>
+  <nav class="nav__links" aria-label="Navigasi utama">
+    <a href="#pilihan">Produk Pilihan</a><a href="#katalog">Semua Produk</a><a href="#info">Info</a>
+  </nav>
+</div></header>
+
+<main id="atas">
+<section class="hero"><div class="wrap hero__in">
+  <div class="hero__text">
+    <p class="hero__intro">Katalog pribadi Ardi</p>
+    <h1 id="heroHeadline"></h1>
+    <p class="hero__sub" id="heroSub"></p>
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="#katalog">Jelajahi Produk</a>
+      <a class="btn btn--ghost" href="#pilihan">Produk Pilihan</a>
+    </div>
+  </div>
+  <div class="collage" aria-hidden="true">
+    <img src="assets/products/scarlett-retinol.jpg" alt="" class="c1" onerror="this.style.visibility='hidden'">
+    <img src="assets/products/wireless-earbuds.jpg" alt="" class="c2" onerror="this.style.visibility='hidden'">
+    <img src="assets/products/mini-lamp.jpg" alt="" class="c3" onerror="this.style.visibility='hidden'">
+  </div>
+</div></section>
+
+<section class="sec" id="pilihan"><div class="wrap">
+  <div class="sec__head"><h2>Pilihan Ardi</h2><p>Beberapa produk yang menarik untuk kamu cek.</p></div>
+  <div class="featured" id="featuredGrid"></div>
+</div></section>
+
+<section class="sec sec--alt" id="katalog"><div class="wrap">
+  <div class="sec__head"><h2>Semua Produk</h2><p>Cari, filter, atau urutkan sesuai kebutuhanmu.</p></div>
+  <div class="search">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <input id="searchInput" type="search" placeholder="Cari produk yang kamu inginkan..." aria-label="Cari produk" autocomplete="off">
+    <button id="clearBtn" class="search__clear" aria-label="Hapus pencarian" hidden>&times;</button>
+  </div>
+  <div class="toolbar">
+    <div class="chips" id="chips" role="group" aria-label="Kategori"></div>
+    <label class="sort">Urutkan
+      <select id="sortSelect"><option value="terbaru">Terbaru</option><option value="nama">Nama Produk</option><option value="harga">Harga Terendah</option></select>
+    </label>
+  </div>
+  <p class="count" id="count" aria-live="polite"></p>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden><h3>Produk tidak ditemukan.</h3><p>Coba kata kunci lain atau pilih kategori berbeda.</p>
+    <button class="btn btn--ghost" id="resetBtn">Jelajahi Semua Produk</button></div>
+</div></section>
+
+<section class="sec" id="info"><div class="wrap"><div class="note">
+  <h2>Soal link affiliate</h2>
+  <p class="disclosure"></p>
+</div></div></section>
+</main>
+
+<footer class="foot"><div class="wrap foot__in">
+  <div><a href="#atas" class="logo" data-logo aria-label="ARDI FINDS"></a>
+    <p class="foot__tag"></p><p class="foot__desc"></p></div>
+  <div class="foot__soc" id="social"></div>
+  <p class="foot__disc disclosure"></p>
+  <p class="foot__copy">&copy; <span id="year"></span> <span class="brandName"></span>. Semua hak dilindungi.</p>
+</div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script src="config.js"></script><script src="products.js"></script><script src="script.js"></script>
+</body></html>

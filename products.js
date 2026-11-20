@@ -5,7 +5,7 @@ const PRODUCTS = [
   { id: 1, name: "Scarlett Retinol Bright Glow Body Serum", category: "Beauty & Body Care", price: "Rp41.900",
     description: "Produk perawatan tubuh untuk rutinitas harian.", image: "assets/products/bodyserum.jpg",
     affiliateLink: "https://s.shopee.co.id/906uUGwJYN?utm_source=chatgpt.com", featured: true, badge: "Produk kecantikan", dateAdded: "2026-11-20", isDummy: false },
-  { id: 2, name: "[JENNIE's PICK!] NEW Vaseline Vitamin Soft + Glow Serum", category: "Lifestyle", price: "Cek harga terbaru di Shopee",
+  { id: 2, name: "[JENNIE's PICK!] NEW Vaseline Vitamin Soft + Glow Serum", category: "Beauty & Body Care", price: "Cek harga terbaru di Shopee",
     description: "Rekomendasi produk dari koleksi ARDI FINDS.", image: "assets/products/bodyserum2.png",
     affiliateLink: "https://s.shopee.co.id/8pnUKqrjqD", featured: true, badge: "Produk kecantikan", dateAdded: "2026-11-19", isDummy: false },
   { id: 3, name: "Holder HP Motor (Contoh)", category: "Otomotif", price: "Rp35.000",

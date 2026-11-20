@@ -3,8 +3,8 @@
 // Hanya produk id 1 dan 2 yang memakai link affiliate asli.
 const PRODUCTS = [
   { id: 1, name: "Scarlett Retinol Bright Glow Body Serum", category: "Beauty & Body Care", price: "Rp41.900",
-    description: "Produk perawatan tubuh untuk rutinitas harian.", image: "assets/products/scarlett-retinol.jpg",
-    affiliateLink: "https://s.shopee.co.id/4LL4vAbAje", featured: true, badge: "Pilihan Ardi", dateAdded: "2026-11-20", isDummy: false },
+    description: "Produk perawatan tubuh untuk rutinitas harian.", image: "assets/products/bodyserum.jpg",
+    affiliateLink: "https://s.shopee.co.id/906uUGwJYN?utm_source=chatgpt.com", featured: true, badge: "Pilihan Ardi", dateAdded: "2026-11-20", isDummy: false },
   { id: 2, name: "Affiliate Product #2", category: "Lifestyle", price: "Cek harga terbaru di Shopee",
     description: "Rekomendasi produk dari koleksi ARDI FINDS.", image: "assets/products/product-2.jpg",
     affiliateLink: "https://s.shopee.co.id/906uUGwJYN", featured: true, badge: "Pilihan Ardi", dateAdded: "2026-11-19", isDummy: false },
